@@ -34,4 +34,12 @@ https://dvc.org/doc/install/windows - to install dvc inside 'mlops_main' repo
 - dvc init - creates .dvc and .dvccignore files
 
 - to commit to git that is public and also keep it secret from public, we git it as secret in git
-  go to settings in git -> then sectrets -> new repository secrets
+  go to settings in git -> then secrets -> new repository secrets
+
+- inside src, create a file named pipeline_01_data_preparation.py
+
+- inside config, create three files:
+
+params.yaml : all configurations in the entire project is centralized to one file : this is the config file that enters into args.config
+schema_training.json : 
+schema_prediction.json : 
